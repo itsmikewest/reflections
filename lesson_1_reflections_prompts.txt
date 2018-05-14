@@ -1,0 +1,73 @@
+**** How did viewing a diff between two versions of a file help you see the bug
+that was introduced? ****
+
+Based on running diff, I was provided with plus signs and minus signs that
+showed me the removal (minus signs) from the old file (first argument) and the
+new file (second argument) / arguments were passed to diff command. I also need
+to always remember to use -u to get the unified format. I did it the first time
+without it and it pumped out a more basic comparison.
+-----------------------------------------------------------------------------------
+**** How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term? ****
+
+I think it may have to do with seeing your common mistakes over time and not
+requiring you to rename files with different names reflecting the changes made.
+And it would allow you to view a full "flow" of everything that has been done to
+a project from start to finish (a full understanding).
+-----------------------------------------------------------------------------------
+ **** What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like Google
+ Docs does? ****
+
+ I think it's a byproduct of size in both instances. With a type of "version control"
+ like Google Docs, the con of auto-saving is that you may get way too many
+ unnecessary saves. And there is no real logical way to keep track of what is
+ being saved. The pro is that if you have a system crash or work for way too long
+ without any type of commit, Google "got you." With Git you're only committing
+ what you choose to commit(manual) and you're able to logically discern what it
+ is that you're saving. The problem or con arises when you're attempting to figure
+ out what is and isn't a logical save point. And you may work on a chunk of code
+ for way too long before actually committing the change.
+-----------------------------------------------------------------------------------
+
+**** Why do you think some version control systems, like Git allow saving multiple
+files in one commit, while others, like Google Docs treat each file separately? ****
+
+I think the reason for this is due to the fact that Git was built for programmers who
+require the ability to save multiple files at once that interact with one another. A
+lot of software utilizes code that calls functions from other files and bounces back
+and forth. Google Docs was made specifically for the saving of documents which
+typically aren't linked via inter-related components that are required to be viewed or
+ran.
+-----------------------------------------------------------------------------------
+
+*** How can you use the commands git log and git diff to view the history of
+files? ***
+
+Git log is a command that is ran on actual file, whether it be a .js file, a html
+file, .py file etc. When you run the command it will pull up the log (with ids)
+of all the commits that have occurred with that file (pretty awesome). You can then
+take two different commits (by locating their ids in git log) and compare them to
+see what changes were made. This is namely in the adding and removal of lines.
+Something I learned that I need to make sure I do is: scroll down! Make sure you
+get an "end."
+-----------------------------------------------------------------------------------
+
+*** How might using version control make you more confident to make changes that
+could break something? ***
+
+The benefit of making the changes and hacking on it some is that if you break
+something you can always go into your commit log and see which commit created the bug
+or change (in the browser). You can then take the code from a previous commit that
+didn't have the bug and use diff to compare it to the buggy file. This will should
+help you find the line of code with the issue.
+-----------------------------------------------------------------------------------
+
+*** Now that you have your workspace set up, what do you want to try using Git
+for? ***
+
+I don't have any projects yet, but I know that I soon will. I'd like to be able to
+upload by projects to Github and keep track of all of the changes that I make with
+the code. I think it's absolutely necessary as you work on larger changes and
+code bases. It appears that it really allows you to explore and experiment without
+causing a ton of issues.
