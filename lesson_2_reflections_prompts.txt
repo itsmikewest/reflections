@@ -1,0 +1,19 @@
+*** What happens when you initialize a repository? Why do you need to do it? ***
+
+When you initialize a repository Git creates a .git directory in whatever
+location you're at. It then begins to track the changes that you make to the files
+in this location, when you make commits. If you don't initiate there is no way for
+.git to track changes or allow for commits. It will let you know what files in a
+directory are not being tracked.
+-----------------------------------------------------------------------------------
+
+*** How is the staging area different from the working directory and the repository?
+What value do you think it offers? ***
+
+The working directory is the current location that files are stored in that you've
+navigated to in bash...essentially the current location. The repository is the
+actual "container" of sorts that stores the files that have a commit on them.
+The staging area is the location that acts as the holding area before becoming a
+repository and receiving commits. It allows for files to be separated from the
+working directory and prepared for a repository. I don't understand what value this
+holds though.
