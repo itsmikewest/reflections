@@ -16,3 +16,12 @@ production ready code to Github. At that you pull when you're looking to work
 on things locally. If it's my project I'll typically have everything I need on
 my local machine. I can pull from other projects what I need.
 -----------------------------------------------------------------------------------
+*** Describe the differences between forks, clones, and branches. When would
+you use one instead of another? ***
+
+A fork is a clone/direct copy of some repository to another repository that
+occurs and stays on Github. Clones are direct copies of repositories that
+either go from Github to local or local to another location locally. Branches
+are "break offs" from the master code branch where you work on and test new
+features, code etc that can either be discarded or merged back into the master
+branch at some point. Branches happen on the local machine.
