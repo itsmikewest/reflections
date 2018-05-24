@@ -25,3 +25,12 @@ either go from Github to local or local to another location locally. Branches
 are "break offs" from the master code branch where you work on and test new
 features, code etc that can either be discarded or merged back into the master
 branch at some point. Branches happen on the local machine.
+-----------------------------------------------------------------------------------
+*** What is the benefit of having a copy of the last known state of the remote
+stored locally? ***
+
+This section was difficult for me as I didn't really understand the concepts
+that were being presented. Overall I'd say the benefit of keeping the last
+known state locally is the fact it allows for the ability to merge the remote
+with whatever is on Github and be able to run git diff to see the differences
+and any type of merge conflicts, etc.
