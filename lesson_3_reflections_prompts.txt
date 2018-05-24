@@ -34,3 +34,12 @@ that were being presented. Overall I'd say the benefit of keeping the last
 known state locally is the fact it allows for the ability to merge the remote
 with whatever is on Github and be able to run git diff to see the differences
 and any type of merge conflicts, etc.
+-----------------------------------------------------------------------------------
+*** How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder? ***
+
+Without Git or Github I'd likely need a situation that was pretty ad-hoc;
+mixing doc files or excel files tracking changes and some type of shared/cloud
+based file service that saved different states of programs. I think this would
+likely also require a numbering system/file-naming system to take into account
+different file states, times, etc. Not an easy task by any means.
