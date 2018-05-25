@@ -43,3 +43,13 @@ mixing doc files or excel files tracking changes and some type of shared/cloud
 based file service that saved different states of programs. I think this would
 likely also require a numbering system/file-naming system to take into account
 different file states, times, etc. Not an easy task by any means.
+-----------------------------------------------------------------------------------
+*** When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have? ***
+
+Based on what I've learned throughout this course, it appears that it is best
+to make changes in a separate branch when you're testing out new features,
+concepts and ideas. Being that the master branch is the shipped/production code
+you likely don't want to make changes there that may lead to bugs or other
+issues. Though making changes in the master is much easier and allows for a lot
+less work.
